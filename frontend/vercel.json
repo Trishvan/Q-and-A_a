@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/ask",
+      "destination": "https://q-and-a-a.onrender.com/ask"
+    }
+  ]
+}
