@@ -10,7 +10,7 @@ export default defineConfig({
     proxy: {
       // Proxy any request starting with /ask to your backend
       "/ask": {
-        target: "http://localhost:5000", // your Express backend
+        target: "https://q-and-a-a.onrender.com", // your Express backend
         changeOrigin: true,
         secure: false,    // set true if backend uses valid HTTPS cert
         ws: false,        // set true only if you proxy websockets
